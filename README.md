@@ -1,16 +1,17 @@
-# React + Vite
+# React + Tailwind CSS v4 Starter Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, lightweight, and pre-configured starter template for building React applications with the power of Tailwind CSS v4.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** (Vite-powered)
+- **Tailwind CSS v4**: The latest "CSS-first" version of Tailwind.
+- **PostCSS Configuration**: Pre-configured with `@tailwindcss/postcss`.
+- **Custom Theme Engine**: Easy-to-edit color palette and component layers directly in `index.css`.
+- **Clean Architecture**: Ready-to-use folder structure for components, pages, and assets.
 
-## React Compiler
+## Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the template** (or use the "Use this template" button on GitHub):
+   ```bash
+   git clone git@github.com:geraldine1989/react-tailwind-starter.git
